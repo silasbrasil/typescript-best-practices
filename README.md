@@ -9,13 +9,13 @@ $ npm i
 To run each file use `node version 22.7.0`+ and run follow command
 
 ```bash
-$ node --experimental-strip-types --experimental-transform-types {FILE NAME}.ts 
+$ npm run start -- dist/{FILE NAME}.js
 ```
 
-Or use `version 23.6.0`
+Example
 
 ```bash
-$ npx tsx {FILE NAME}.ts
+$ npm run start -- dist/builder.js
 ```
 
 Or use `ts-node`
