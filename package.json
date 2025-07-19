@@ -4,8 +4,7 @@
   "description": "To run each file use `node version 22.7.0`+ and run follow command",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand",
-    "start": "npx tsc; node"
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
